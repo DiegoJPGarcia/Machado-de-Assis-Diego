@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/*fonte usada*/@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,600;1,200;1,900&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif; (chamada dessa fonte)*/ 
+
+/*declarador de variavel*/  :root{
+--cor1: #D9D5B4;/*variavel*/
+--cor2: #59552F;
+--cor3: #A6A38A;
+--cor4: #E0D677;
+--cor5: #59584A;
+
+
+}
+/*para todo o texto usar este sinal em azul*/*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: var(--cor1);
+font-family: 'Source Sans Pro', sans-serif; ;
+
+
+}
+header{
+min-height: 100px;
+text-align: center;
+padding-top: 20px;
+color: var(--cor2);
+text-shadow: var(--cor3) 3px 4px 6px;
+}
+.comeco{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 30;
+}
+nav{
+padding: 25px;
+font-size: 25px;
+text-align: center;
+
+}
+nav > a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: var(--cor3) 5px 6px 7px;
+    border-radius: 3px;
+}
+nav > a:hover{
+    color:  var(--cor2);
+    font-size: 35px;
+
+
+}
+main{
+    margin-top: 10px;
+    background-color: white;
+    min-width: 320;
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding: 15px ;
+    border-radius: 3px;
+}
+ul{
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 25px;
+}
+h3{
+    font-size: 30px;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+    font-size: 25px;
+}
+pre{
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 10px;
+    color: var(--cor2);
+    background-color: var(--cor4);
+    border-radius: 6px;
+    box-shadow: 6px 7px 8px;
+}
+h4{
+    font-size: 30px;
+    padding-top: 15px;
+}
+h2{
+    font-size: 30px;
+}
+h1{
+    font-size: 30px;
+}
+iframe{
+    box-shadow: 4px 6px 8px;
+    border-radius: 4px;
+    
+}
+footer{
+    padding: 15px;
+    text-align: center;
+}
+.final{
+    text-align: center;
+}
+footer > a{
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: var(--cor3) 5px 6px 7px;
+    border-radius: 3px;
+    padding-bottom: 3px;
+
+}
+footer > a:hover{
+    padding: 7px;
+    color:  var(--cor2);
+}
+img{
+    border-radius: 3px;
+    border-style: solid;
+    margin: 15px 15px 15px;
+}
+figcaption{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+h5{
+    font-size: 25px;
+    color: var(--cor2);
+    padding: 15px;
+
+}
